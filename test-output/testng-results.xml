@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-17T14:57:47Z" name="Default suite" finished-at="2022-08-17T14:57:56Z" duration-ms="8969">
+    <groups>
+    </groups>
+    <test started-at="2022-08-17T14:57:47Z" name="Default test" finished-at="2022-08-17T14:57:56Z" duration-ms="8969">
+      <class name="org.testApi.PetStore">
+        <test-method signature="newPost()[pri:1, instance:org.testApi.PetStore@6892b3b6]" started-at="2022-08-17T14:57:47Z" name="newPost" finished-at="2022-08-17T14:57:51Z" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPost -->
+        <test-method signature="verifyPost()[pri:2, instance:org.testApi.PetStore@6892b3b6]" started-at="2022-08-17T14:57:51Z" name="verifyPost" finished-at="2022-08-17T14:57:52Z" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPost -->
+        <test-method signature="verifyByStatus(java.lang.String)[pri:3, instance:org.testApi.PetStore@6892b3b6]" started-at="2022-08-17T14:57:52Z" name="verifyByStatus" data-provider="status" finished-at="2022-08-17T14:57:53Z" duration-ms="1205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByStatus -->
+        <test-method signature="verifyByStatus(java.lang.String)[pri:3, instance:org.testApi.PetStore@6892b3b6]" started-at="2022-08-17T14:57:53Z" name="verifyByStatus" data-provider="status" finished-at="2022-08-17T14:57:55Z" duration-ms="1918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByStatus -->
+        <test-method signature="verifyByStatus(java.lang.String)[pri:3, instance:org.testApi.PetStore@6892b3b6]" started-at="2022-08-17T14:57:55Z" name="verifyByStatus" data-provider="status" finished-at="2022-08-17T14:57:56Z" duration-ms="1250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByStatus -->
+      </class> <!-- org.testApi.PetStore -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
